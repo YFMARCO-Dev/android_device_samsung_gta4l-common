@@ -18,3 +18,4 @@ ro.setupwizard.mode=OPTIONAL
 ro.opa.eligible_device=true
 ro.com.google.gmsversion=12_202204
 debug.sf.enable_transaction_tracing=false
+debug.cpurend.vsync=false
