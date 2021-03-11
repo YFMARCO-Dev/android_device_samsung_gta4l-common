@@ -182,6 +182,7 @@ debug.sf.hw=0
 debug.sf.latch_unsignaled=1
 debug.sdm.support_writeback=0
 persist.demo.hdmirotationlock=false
+ro.config.avoid_gfx_accel=true
 ro.surface_flinger.protected_contents=true
 persist.sys.sf.color_mode=9
 ro.hardware.egl=adreno
