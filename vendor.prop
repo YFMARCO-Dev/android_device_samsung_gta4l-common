@@ -150,6 +150,9 @@ persist.vendor.bt.a2dp_offload_cap=sbc-aptx-aptxhd-aac
 ro.bluetooth.a2dp_offload.supported=false
 ro.vendor.bluetooth.wipower=false
 
+# Skia
+renderthread.skia.reduceopstasksplitting=true
+
 # Sensors
 persist.vendor.sensors.debug.ssc_qmi_debug=true
 persist.vendor.sensors.hal_trigger_ssr=false
