@@ -23,3 +23,6 @@ persist.service.lgospd.enable=0
 persist.service.pcsync.enable=0
 persist.service.mount.playsnd=0
 ro.config.nocheckin=1
+
+# Feature flags
+persist.sys.fflag.override.settings_enable_monitor_phantom_procs=false
