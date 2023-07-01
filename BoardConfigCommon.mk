@@ -126,6 +126,7 @@ TARGET_KERNEL_CLANG_VERSION := neutron
 TARGET_KERNEL_CLANG_PATH := $(shell pwd)/prebuilts/clang/host/linux-x86/clang-neutron
 KERNEL_SUPPORTS_LLVM_TOOLS := true
 KERNEL_FULL_LLVM := true
+KERNEL_CC := CC=clang
 
 # Keymaster
 TARGET_KEYMASTER_VARIANT := samsung
