@@ -252,6 +252,8 @@ on boot
     # Disable kernel logging for better performance
     write /proc/sys/kernel/printk "0 0 0 0"
 
+    setprop vendor.powerhal.init 1
+
 # msm specific files that need to be created on /data
 on post-fs-data
     mkdir /data/vendor/misc 01771 system system
