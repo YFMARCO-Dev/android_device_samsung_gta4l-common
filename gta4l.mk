@@ -31,6 +31,9 @@ $(call inherit-product, vendor/samsung/gta4l-common/gta4l-common-vendor.mk)
 
 PRODUCT_CHARACTERISTICS := tablet
 
+# Build Signer
+-include vendor/lineage-priv/keys/keys.mk
+
 # AAPT
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xhdpi
