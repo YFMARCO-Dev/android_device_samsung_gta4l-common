@@ -51,3 +51,11 @@ on boot
 
     # Permissions for Touchscreen
     chown system radio /sys/class/sec/tsp/cmd
+
+on post-fs-data
+
+    # Hardware revision
+    on property:ro.boot.hwlevel=*
+    setprop ro.boot.hardware.revision ${ro.boot.hwlevel}
+
+
