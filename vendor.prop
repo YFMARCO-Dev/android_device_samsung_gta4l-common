@@ -285,3 +285,10 @@ vendor.power.pasr.enabled=false
 
 # Zygote
 zygote.critical_window.minute=10
+
+# Touch hax
+ro.vendor.qti.cgroup_follow.enable=true 
+persist.vendor.qti.inputopts.enable=true 
+persist.vendor.qti.inputopts.movetouchslop=0.6 
+ro.qcom.adreno.qgl.ShaderStorageImageExtendedFormats=0
+>>>>>>> 9809c52 (gta4l-common: props: Improve Touch response and scrolling)
