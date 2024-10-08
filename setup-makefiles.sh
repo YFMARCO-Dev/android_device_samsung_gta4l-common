@@ -35,9 +35,18 @@ function lib_to_package_fixup_vendor_variants() {
         return 1
     fi
     case "$1" in
-	com.qualcomm.qti.ant@1.0)
+	com.qualcomm.qti.ant@1.0 | \
+	    vendor.qti.hardware.servicetracker@1.0 | \
+	    vendor.qti.hardware.camera.postproc@1.0 | \
+	    vendor.qti.hardware.servicetracker@1.1 | \
+	    vendor.qti.hardware.camera.device@1.0)
             echo "$1_vendor"
             ;;
+        libwpa_client | \
+	    libc2dcolorconvert | \
+	    libutils-v30 | \
+	    libui-v30 | \
+	    libplatformconfig) ;;
         *)
             return 1
             ;;
