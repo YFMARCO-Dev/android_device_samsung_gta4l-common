@@ -160,7 +160,9 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.display.composer-service \
     vendor.qti.hardware.display.mapper@1.0.vendor \
     vendor.qti.hardware.display.mapper@1.1.vendor \
-    vendor.qti.hardware.display.mapper@2.0.vendor
+    vendor.qti.hardware.display.mapper@2.0.vendor \
+    libsdedrm \
+    libplatformconfig
 
 # DRM
 PRODUCT_PACKAGES += \
